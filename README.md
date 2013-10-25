@@ -17,12 +17,12 @@ Everything is configured and tweaked within `~/.dotfiles`.
 
 ## Sync vdupain
 https://help.github.com/articles/syncing-a-fork
-
- git remote add upstream https://github.com/vdupain/dotfiles.git
- git fetch upstream
- git checkout master
- git merge upstream/master
-
+```sh
+git remote add upstream https://github.com/vdupain/dotfiles.git
+git fetch upstream
+git checkout master
+git merge upstream/master
+```
 
 ## thanks
 
