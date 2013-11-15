@@ -82,3 +82,6 @@
 
 [push]
 	default = matching
+[user]
+	email = jmorille@gmail.com
+	name = jmorille
