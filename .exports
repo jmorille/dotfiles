@@ -23,3 +23,24 @@ export GREP_OPTIONS="--color=auto"
 
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+# Android
+export ANDROID_HOME=$HOME/opt/android-sdk-macosx
+export PATH=$PATH:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools
+
+# Graddle
+# export GRADLE_OPTS="$GRADLE_OPTS -Xms256m -Xmx1048m"
+# export GRADLE_OPTS="$GRADLE_OPTS -Dorg.gradle.daemon=true"
+export GRADLE_HOME=$HOME/opt/gradle
+export PATH=$PATH:$GRADLE_HOME/bin
+
+# MAVEN_OPTS="-Dorg.apache.maven.global-settings=$HOME/.m2/global_settings.xml"
+# export MAVEN_OPTS="${MAVEN_OPTS} -Xms256m -Xmx1048m"
+# export MAVEN_OPTS="${MAVEN_OPTS} -XX:PermSize=128m -XX:MaxPermSize=512m"
+
+export MAVEN_HOME="$HOME/opt/maven"
+export PATH=$PATH:$MAVEN_HOME/bin
+
+# NodeJs
+export NODEJS_HOME=$HOME/opt/nodejs
+export PATH=$PATH:$NODEJS_HOME/bin
